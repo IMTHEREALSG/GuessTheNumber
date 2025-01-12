@@ -16,6 +16,7 @@ function App() {
             <button className='group-hover:text-white p-3 m-3 border-2 rounded-2xl bg-blue-400 border-blue-400 'onClick={() => setStart(true)}>Start Game</button>
           </div>
         )}
+        <NumberGuess />
       </div>
     </>
   );
