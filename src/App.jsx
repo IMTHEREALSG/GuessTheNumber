@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='flex items-center justify-center h-screen w-full bg-transparent animated-gradient'>
+      <div className='flex items-center justify-center h-screen w-screen bg-transparent animated-gradient'>
         {start ? (
           <NumberGuess />
         ) : ( 
